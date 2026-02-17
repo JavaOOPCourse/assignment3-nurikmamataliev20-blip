@@ -12,7 +12,7 @@ public class Main {
         Service[] services = {streaming, cloud, consultation};
 
         for (Service s : services)
-            s.activateService();
+            s.getIsActive();
 
         System.out.println("------ Performing Core Operations ------");
 
