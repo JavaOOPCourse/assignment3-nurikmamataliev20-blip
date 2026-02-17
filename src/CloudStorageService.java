@@ -2,11 +2,12 @@ public class CloudStorageService extends Service
         implements PremiumFeature, Billable {
 
     // TODO: declare premium field
-    boolean premium=false;
+    boolean premium;
 
     // TODO: constructor
     public CloudStorageService(String name, int id){
         super(name, id);
+        this.premium=false;
     }
 
     @Override
